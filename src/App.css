@@ -1,0 +1,222 @@
+.delete-button {
+  background-color: #ff4d4d; /* צבע אדום */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.delete-button:hover {
+  background-color: #cc0000; /* צבע אדום כהה יותר במעבר עכבר */
+}
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.app-header {
+  text-align: center; /* מרכז הכותרת אופקית */
+  margin-top: 20px; /* מרווח מלמעלה */
+}
+
+/* עיצוב הכותרת */
+.app-header h1 {
+  font-size: 36px; /* גודל כותרת */
+  color: #333; /* צבע הכותרת */
+  font-weight: bold; /* טקסט מודגש */
+}
+
+/* עיצוב הטופס */
+.add-car-form {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.add-car-form div {
+  margin-bottom: 10px;
+}
+
+.add-car-form input {
+  padding: 10px;
+  width: 200px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.add-car-form button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-car-form button:hover {
+  background-color: #0056b3;
+}
+
+/* עיצוב קונטיינר */
+.car-container {
+  display: flex; /* פריסה אופקית */
+  flex-wrap: wrap; /* מעבר לשורה חדשה במקרה שאין מקום */
+  justify-content: center; /* יישור למרכז */
+  gap: 20px; /* מרווח בין הכרטיסים */
+  padding: 20px; /* רווח פנימי */
+}
+.car-image {
+  width: 100%; /* רוחב מלא של הכרטיס */
+  height: auto; /* שומר על היחס המקורי */
+  border-radius: 5px; /* פינות מעוגלות */
+  margin-bottom: 10px; /* רווח מתחת לתמונה */
+}
+
+/* עיצוב כרטיס */
+.car-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+  text-align: center;
+  width: 300px;
+  margin: 15px;
+}
+
+/* עיצוב כותרת הרכב */
+.car-card h1 {
+  font-size: 20px; /* גודל טקסט */
+  color: #333; /* צבע טקסט כהה */
+  margin-bottom: 10px; /* רווח מתחת לכותרת */
+}
+
+/* עיצוב טקסט מספר הרכב */
+.car-card p {
+  font-size: 16px; /* גודל טקסט */
+  color: #555; /* צבע טקסט מעט כהה */
+  margin-bottom: 15px; /* רווח מתחת לטקסט */
+}
+
+/* עיצוב כפתור מחיקה */
+.car-card .delete-button {
+  background-color: #ff4d4d !important; /* צבע אדום */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.edit-price {
+  margin-top: 10px;
+  text-align: left;
+}
+
+.car-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.car-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+  text-align: center;
+  width: 300px;
+  margin: 15px;
+}
+
+.car-image {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.edit-price p {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.price-input {
+  width: 100px;
+  padding: 5px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.edit-button {
+  background-color: #23e153 !important;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.edit-button:hover {
+  background-color: #0056b3;
+}
+
+
+
+.car-card .delete-button:hover {
+  background-color: #cc0000 !important; /* צבע אדום כהה יותר במעבר עכבר */
+}
+
+
+/* עיצוב כפתור */
+.car-card button {
+  background-color: #007bff; /* צבע רקע כחול */
+  color: white; /* צבע טקסט */
+  border: none; /* ללא גבול */
+  padding: 10px 20px; /* רווח פנימי */
+  border-radius: 5px; /* פינות מעוגלות */
+  cursor: pointer; /* סמן של יד */
+  font-size: 16px; /* גודל טקסט */
+}
+
+.car-card button:hover {
+  background-color: #0056b3; /* צבע כחול כהה יותר במעבר עכבר */
+}
+/* עיצוב כללי של כפתור ב-car-card */
+.car-card .action-button {
+  background-color: #007bff; /* צבע רקע כחול */
+  color: white; /* צבע טקסט */
+  border: none; /* ללא גבול */
+  padding: 10px 20px; /* רווח פנימי */
+  border-radius: 5px; /* פינות מעוגלות */
+  cursor: pointer; /* סמן של יד */
+  font-size: 16px; /* גודל טקסט */
+}
+
+.car-card .action-button:hover {
+  background-color: #0056b3; /* צבע כחול כהה יותר במעבר עכבר */
+}
+
+/* עיצוב כפתור מחיקה */
+.delete-button {
+  background-color: #ff4d4d; /* צבע אדום */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.delete-button:hover {
+  background-color: #cc0000; /* צבע אדום כהה יותר במעבר עכבר */
+}
+

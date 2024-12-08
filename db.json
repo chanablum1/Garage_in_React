@@ -1,0 +1,28 @@
+{
+  "cars": [
+    {
+      "name": "Honda",
+      "numbercar": "698-55-885",
+      "price": 20000,
+      "imagecar": "https://www.icar.co.il/_media/images/models/bgremoval/honda-crv-2013.jpg"
+    },
+    {
+      "name": "Toyota",
+      "numbercar": "558-23-123",
+      "price": 50000,
+      "imagecar": "https://kong-proxy-aws.toyota-europe.com/c1-images/resize/ccis/680x680/zip/il/configurationtype/visual-for-grade-selector/product-token/abda22dd-77c3-4b25-814f-a56d75ac1afd/grade/f4ed8de5-564a-4743-a1d6-c6440b75917b/body/30b0ef55-504f-4ce5-8f54-6856b2e8aa20/fallback/true/padding/50,50,50,50/image-quality/70/day-exterior-33_3u5.png"
+    },
+    {
+      "name": "Tesla",
+      "numbercar": "91-528-301",
+      "price": 120000,
+      "imagecar": "https://www.automag.co.il/wp-content/uploads/2019/03/TESLA-MODEL-Y-3.jpg"
+    },
+    {
+      "id": "cd2f",
+      "name": "kia",
+      "numbercar": "55888988",
+      "imagecar": "https://www.icar.co.il/_media/images/models/bgremoval/kia-stonic-2018.jpg"
+    }
+  ]
+}
